@@ -52,6 +52,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Issue502.StepsA\Issue502.StepsA.csproj">
+      <Project>{7453d4e7-9d16-43aa-b3aa-62b28198ed9d}</Project>
+      <Name>Issue502.StepsA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Issue502.StepsB\Issue502.StepsB.csproj">
+      <Project>{96803ec1-9895-45d3-995c-af308a901085}</Project>
+      <Name>Issue502.StepsB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
