@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SameRelativePath\Relative\Path\FailsForSameFileName.cs" />
+    <Compile Include="WorksForDifferentFileName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
